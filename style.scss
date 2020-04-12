@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("assets/Gilroy-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    font-weight: bold;
+}
+
+body {
+    display: grid;
+}
+
+.brown-text {
+    color: #6A3B3B;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25px;
+}
+
+.content-aligner {
+    max-width: 600px;
+    align-self: center;
+    margin: auto;
+}
+
+.heading {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__actions {
+        height: 100%;
+    }
+
+    &__play-btn {
+        width: 56px;
+        height: 56px;
+        transition: transform 200ms;
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+}
+
+.cover-art {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 18px;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    transition: transform 200ms;
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+    &--spotify {
+        background-color: #1ED760;
+        color: black;
+    }
+
+    &--insta {
+        background: linear-gradient(261.65deg, #0500FF 0%, #FF006B 51.56%, #FF8A00 100%);
+        color: white;
+    }
+
+    &__image {
+        width: 22px;
+        height: 22px;
+        margin-left: 10px;
+    }
+}
+
+.footer-text {
+    margin-top: 50px;
+    font-size: 14px;
+    color: rgba(#6A3B3B, 0.2);
+    width: 100%;
+    text-align: center;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+iframe {
+    border-radius: 7px;
+    overflow: hidden;
+}
