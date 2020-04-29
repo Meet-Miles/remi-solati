@@ -83,6 +83,7 @@ body {
   padding: 15px;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 7px;
   transition: transform 200ms;
 }
@@ -98,6 +99,11 @@ body {
 
 .button--insta {
   background: linear-gradient(261.65deg, #0500FF 0%, #FF006B 51.56%, #FF8A00 100%);
+  color: white;
+}
+
+.button--apple {
+  background: black;
   color: white;
 }
 
