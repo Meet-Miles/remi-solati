@@ -4,6 +4,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -38,18 +39,22 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .heading__text {
   display: flex;
   flex-direction: column;
 }
+
 .heading__actions {
   height: 100%;
 }
+
 .heading__play-btn {
   width: 56px;
   height: 56px;
   transition: transform 200ms;
 }
+
 .heading__play-btn:active {
   transform: scale(0.98);
 }
@@ -58,7 +63,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   border-radius: 7px;
 }
 
@@ -81,17 +86,21 @@ body {
   border-radius: 7px;
   transition: transform 200ms;
 }
+
 .button:active {
   transform: scale(0.98);
 }
+
 .button--spotify {
   background-color: #1ED760;
   color: black;
 }
+
 .button--insta {
   background: linear-gradient(261.65deg, #0500FF 0%, #FF006B 51.56%, #FF8A00 100%);
   color: white;
 }
+
 .button__image {
   width: 22px;
   height: 22px;
@@ -119,4 +128,6 @@ iframe {
   overflow: hidden;
 }
 
-/*# sourceMappingURL=style.css.map */
+a {
+  text-decoration: none;
+}
